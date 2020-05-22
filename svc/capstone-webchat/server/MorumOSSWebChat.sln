@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MorumOSSWebChat", "MorumOSSWebChat\MorumOSSWebChat.csproj", "{7456983D-F3E4-42CE-88CA-549BFA6D1211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MorusOSSWebChatNUnitTestProject", "MorusOSSWebChatNUnitTestProject\MorusOSSWebChatNUnitTestProject.csproj", "{4CDCEB84-0523-4614-B6A6-7C4489498AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7456983D-F3E4-42CE-88CA-549BFA6D1211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7456983D-F3E4-42CE-88CA-549BFA6D1211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7456983D-F3E4-42CE-88CA-549BFA6D1211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7456983D-F3E4-42CE-88CA-549BFA6D1211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDCEB84-0523-4614-B6A6-7C4489498AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDCEB84-0523-4614-B6A6-7C4489498AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDCEB84-0523-4614-B6A6-7C4489498AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDCEB84-0523-4614-B6A6-7C4489498AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C75F789E-5669-4D4B-8693-FD5DE5BECE8A}
+	EndGlobalSection
+EndGlobal

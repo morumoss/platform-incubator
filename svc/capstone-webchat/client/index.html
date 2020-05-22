@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>MorumOSS Chat</title>
+    <script src="Scripts/signalr.js" type="text/javascript"></script>
+    <script src="Scripts/Main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/ChatStyle.css">
+</head>
+<body>
+
+
+
+    <!--Task bar div-->
+    <div data-role="navbar" id="divTaskbar" class="taskbar">
+
+        <h4 class="taskbarText">MorumOSS Chat Software</h4>
+
+    </div>
+
+    <!--Receive messages div-->
+    <div id="divMessageBody" class="messageBody">
+
+        <select id="selectMessages" name="selectMessages" class="messageBox" multiple>
+
+
+        </select>
+
+    </div>
+
+    <!--Enter message div-->
+    <div id="divMessageSubmit" class="msgInputArea">
+
+        <textarea id="txtMessageSubmitBox" class="inputMessageBox"
+                  rows="4" cols="100" placeholder="Enter your message..."></textarea>
+        <button id="btnSendMessage" onclick="sendMessage();">Send Message</button>
+
+
+
+    </div>
+
+    <div id="divChatOptions" class="chatOptions">
+
+        <button id="btnClearChat" class="chatOptionsbtn" onclick="userClearChat();">Clear Chat</button>
+
+        <button id="btnBlockUser" class="chatOptionsbtn" onclick="userBlocksUser();">Block User</button>
+		
+        <button id="btnShowUsers" class="chatOptionsBtn" onclick="userShowConnectedUsers();">User List</button>
+
+        <button id="btnAdminOptions" class="chatOptionsBtn" onclick="showAdminOptions();">Admin Options</button>
+
+    </div>
+
+    <div id="divAdminOptions" class="adminChatOptions" style="display:none">
+
+        <button id="btnAdminClearChat" class="adminChatOptionsBtn" onclick="adminClearChat();">Admin Clear Chat</button>
+
+        <button id="btnAdminDeleteMessage" class="adminChatOptionsBtn" onclick="adminDeleteMessage();">Admin Delete Message</button>
+
+        <button id="btnAdminBlockUser" class="adminChatOptionsBtn" onclick="adminBlockUser();">Toggle Block User</button>
+
+        <button id="btnAdminToggleChat" class="adminChatOptionsBtn" onclick="adminToggleChat();">Toggle Lock Chat</button>
+
+        <button id="btnToggleModerator" class="adminChatOptionsBtn" onclick="adminToggleMod();">Toggle Moderator</button>
+
+        <button id="btnViewUserInfo" class="adminChatOptionsBtn" onclick="adminViewUserInfo();">View User Info</button>
+
+        <button id="btnShowWordFilter" class="adminChatOptionsBtn" onclick="showWordFilter();">Word Filter</button>
+
+        <label for="txtAddRemoveWord" id="lblAddRemoveWord" style="display:none">Word:</label>
+        <input type="text" id="txtAddRemoveWord" style="display:none">
+
+        <button id="btnAddWordFilter" class="adminChatOptionsBtn" onclick="addWordFilter();" style="display:none">Add Word</button>
+
+
+    </div>
+
+    <!--Testing menu -->
+    <div id="divTestButton">
+        <button id="btnTest" onclick="showTest()">Show Testing Menu</button>
+    </div>
+
+    <div id="testing" style="display:none">
+
+        <h2> Testing Menu</h2>
+
+        <label for="username">UserName</label>
+        <input id="username" type="text" /><br/>
+        <label for="session">Session ID</label>
+        <input id ="session" type="text" /><br/>
+        <button onclick="setIdentity();">Set Identity</button>
+        <button id="btnUnitTests" onclick="runUnitTests()">Run Unit Tests</button>
+
+    </div>
+
+
+
+</body>
+</html>

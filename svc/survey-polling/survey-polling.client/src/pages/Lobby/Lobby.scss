@@ -1,0 +1,52 @@
+.lobby {
+  height: 100vh;
+  width: 100vw;
+  color: #222222;
+
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+
+  &__info_section {
+    .lobby__title {
+      margin-bottom: 0.4em;
+      color: #2e70ff;
+    }
+    .lobby__pin {
+      font-size: 20px;
+      &_number {
+        display: inline-block;
+        width: 100%;
+        margin-top: 0.225em;
+        font-size: 50px;
+      }
+    }
+  }
+
+  &__line {
+    width: 100%;
+    font-size: 200px;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  &__waiting_section {
+    .lobby {
+      &__waiting {
+        font-size: 22px;
+      }
+      &__btn_start {
+        position: relative;
+        display: block;
+        margin-left: auto;
+      }
+      &__count {
+        margin-top: 0.2em;
+      }
+    }
+  }
+}

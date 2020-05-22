@@ -1,0 +1,20 @@
+{
+  "short_name": "Morum (OSS) Live Polling",
+  "name": "More Universal Methods (OSS) Live Polling App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256 128x128 96x96 72x72 64x64 48x48 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "434x434"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,39 @@
+.join {
+  height: 100vh;
+
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    color: #222222;
+  }
+
+  &__logo {
+    width: 250px;
+  }
+
+  &__pin {
+    padding: 5px;
+    margin: 8px;
+    border-radius: 10px;
+    border-color: grey;
+    width: 450px;
+    text-align: center;
+    font-size: large;
+  }
+
+  &__submit {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__error {
+    color: red;
+    margin-bottom: 7px;
+  }
+}

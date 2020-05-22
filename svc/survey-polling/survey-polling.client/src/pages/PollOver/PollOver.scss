@@ -1,0 +1,24 @@
+.pollover{
+    &__title{
+        text-align: center;
+        margin-top: 350px;
+    }
+
+    &__over{
+        color: red;
+        font-size: 50px;
+    }
+
+    &__thanks{
+        font-size: 25px;
+    }
+
+    &__link{
+        color: white;
+    }
+
+    &__join__logo{
+        width: 100px;
+        margin-bottom: 12px;
+    }
+}

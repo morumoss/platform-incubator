@@ -1,0 +1,46 @@
+.dashboard {
+  &__polls_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+
+    thead {
+      background-color: #e0e0e0;
+      color: #0a0a0a;
+      text-align: left;
+      vertical-align: bottom;
+    }
+
+    th,
+    td {
+      padding: 0.5em 1em;
+      border-left: 1px solid #cbcbcb;
+      border-bottom: 1px solid #cbcbcb;
+      margin: 0;
+      overflow: visible;
+    }
+  }
+
+  /* Create two equal columns that floats next to each other */
+  .create__poll_sec {
+    background-color: #f1f1f1;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 4px #d4d4d4;
+    width: 240px;
+  }
+
+  .poll-container {
+    margin-left: 12px;
+  }
+
+  .create_poll_title {
+    margin-left: 12px;
+  }
+}
+
+.nav{
+  
+}

@@ -1,0 +1,30 @@
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  &__logo {
+    width: 50%;
+  }
+
+  &__title {
+    font-size: 32px;
+    margin: 1em 0;
+    color: #292929;
+  }
+
+  &__btn_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__temp {
+    margin-top: 2em;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(49, 49, 49);
+    max-width: 40em;
+  }
+}
